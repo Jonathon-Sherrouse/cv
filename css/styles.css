@@ -1,0 +1,260 @@
+.top-container {
+  padding: 100px;
+  padding-bottom: 0;
+  background-color: #E4F9F5;
+  position: relative;
+  /*border: solid;
+
+  /*border-width: 0px 10px 20px 30px;*/
+  /*same as border-top border-right
+                                     border-bottom and border-left*/
+  /* padding: 20px; creates space from edge of border, even increases size of div*/
+  /*margin: 10px; padding outside of div*/
+}
+.castle{
+  width: 20%;
+}
+hr{
+  border-style: dotted none none none;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  height: 0px;
+  width: 5%;
+  margin: 100px auto;
+}
+.skills{
+  position: relative;
+}
+
+.goomba1{
+  position: absolute;
+  width: 7%;
+  bottom: 0;
+  left: 100px;
+}
+
+.goomba2{
+  position: absolute;
+  width: 7%;
+  bottom: 0;
+  right: 200px;
+}
+
+.flag{
+  width: 15%;
+  position: absolute;
+  bottom: 0;
+  left: 400px;
+}
+
+.mario{
+  position: absolute;
+  width: 5%;
+}
+
+.testing {
+  display: inline;
+  position: absolute;
+  left: 500px;
+}
+
+.hobbies{
+  line-height: 2;
+  /* width: 50%;
+  bottom: 30px;
+  margin: 0px auto 100px auto;
+  text-align: left; */
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+
+/* .bottom-container {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+} */
+
+h1 {
+  /* margin-top: 50px;
+  /*elimiates default CSS that forces padding (try without it)*/
+  /* margin-bottom: 0; */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* font-size: 90px; same as percent below, 100% is 16px*/
+  /* font-size: 5.625em; same as below. 1em = 16px*/
+  font-size: 5.625rem;
+  /* rem not affected by parents, also lets it scale for users with disabilities */
+  /* font-size: 562.5%; */
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+/* .skills{
+  position: relative;
+} */
+
+.skill-row{
+  width: 50%;
+  bottom: 30px;
+  margin: 0px auto 90px auto;
+  text-align: left;
+}
+
+
+.progLang{
+  display: table;
+}
+.pro {
+  /* text-decoration: underline; */
+}
+
+.cloud {
+  position: absolute;
+  right: 375px;
+  top: 50px;
+  /*left: 50px; pushes 50 pixels FROM the left of where it would normally be, so it moves it to the right*/
+  /*also, top bottom and right*/
+}
+
+.cloud2 {
+  position: absolute;
+  left: 350px;
+}
+
+.myphoto{
+  width: 17%;
+  border-radius: 50%;
+}
+
+.myphoto:hover{
+  width: 40%;
+}
+
+.computer{
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+}
+
+
+.android{
+  width: 25%;
+  padding-top: 20px;
+  float: left;
+  margin-bottom: 100px;
+}
+
+.myskillstext{
+  padding-bottom: 25px;
+}
+
+.mushroom{
+  width: 25%;
+  float: left;
+  padding-right: 20px;
+}
+
+.flute{
+  float: right;
+  width: 27%;
+  border-radius: 50%;
+  padding-left: 20px;
+}
+
+.programmer{
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.profile{
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.hobbyrow{
+  width: 50%;
+  bottom: 30px;
+  margin: 0px auto 100px auto;
+  text-align: left;
+}
+
+.btn{
+
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0px 20px;
+}
+
+.intro{
+  width: 50%; /*30% of parent container*/
+  margin: auto;
+}
+
+.contactmsg{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.testbutton {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+}
+.testbutton:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+}
+
+.copyrightmsg{
+  padding: 20px 0px;
+  font-size: 0.75rem;
+}
