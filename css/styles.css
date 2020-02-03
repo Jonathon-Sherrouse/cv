@@ -146,6 +146,13 @@ body {
   left: 350px;
 }
 
+.blocks{
+  width: 15%;
+  position: absolute;
+  bottom: 250px;
+  left: 200px;
+}
+
 .myphoto{
   width: 17%;
   border-radius: 50%;
