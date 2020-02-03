@@ -143,7 +143,15 @@ body {
 .cloud2 {
   width: 4%;
   position: absolute;
-  left: 350px;
+  top: 50px;
+  right: 320px;
+}
+
+.cloud3 {
+  width: 4%;
+  position: absolute;
+  top: 50px;
+  right: 265px;
 }
 
 .blocks{
