@@ -1,5 +1,5 @@
 .top-container {
-  padding: 100px;
+  padding: 6.25rem;
   padding-bottom: 0;
   background-color: #E4F9F5;
   position: relative;
@@ -17,10 +17,10 @@
 hr{
   border-style: dotted none none none;
   border-color: #EAF6F6;
-  border-width: 8px;
+  border-width: 0.5rem;
   height: 0px;
   width: 5%;
-  margin: 50px auto;
+  margin: 3.125rem auto;
 }
 .skills{
   position: relative;
@@ -55,7 +55,7 @@ hr{
 .testing {
   display: inline;
   position: absolute;
-  left: 500px;
+  left: 31.25rem;
 }
 
 .hobbies{
@@ -67,7 +67,7 @@ hr{
 }
 
 .middle-container {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 /* .bottom-container {
@@ -80,7 +80,7 @@ h1 {
   /* margin-top: 50px;
   /*elimiates default CSS that forces padding (try without it)*/
   /* margin-bottom: 0; */
-  margin: 50px auto 0 auto;
+  margin: 3.125rem auto 0 auto;
   font-family: 'Sacramento', cursive;
   /* font-size: 90px; same as percent below, 100% is 16px*/
   /* font-size: 5.625em; same as below. 1em = 16px*/
@@ -118,15 +118,15 @@ body {
 
 .skill-row{
   width: 50%;
-  bottom: 30px;
-  margin: 0px auto 90px auto;
+  bottom: 1.875rem;
+  margin: 0px auto 5.625rem auto;
   text-align: left;
 }
 
 .schoolrow{
   width: 50%;
-  bottom: 30px;
-  margin: 0px auto 100px auto;
+  bottom: 1.875rem;
+  margin: 0px auto 6.25rem auto;
   text-align: left;
 }
 
@@ -149,8 +149,8 @@ body {
 .cloud2 {
   width: 4%;
   position: absolute;
-  top: 50px;
-  right: 320px;
+  top: 3.125rem;
+  right: 20rem;
 }
 
 .cloud3 {
@@ -186,46 +186,46 @@ body {
   width: 40%;
   border-radius: 20%;
   float: left;
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 
 .fsu{
   width: 40%;
   border-radius: 20%;
   float: left;
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 
 .semesters{
-  padding-left: 320px;
+  padding-left: 20rem;
 }
 
 .highschoolaccomp{
-  padding-left: 320px;
+  padding-left: 20rem;
 }
 
 .android{
   width: 25%;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   float: left;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 
 .myskillstext{
-  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
 }
 
 .mushroom{
   width: 25%;
   float: left;
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 
 .flute{
   float: right;
   width: 27%;
   border-radius: 50%;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .programmer{
@@ -235,13 +235,13 @@ body {
 
 .profile{
   line-height: 2;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .hobbyrow{
   width: 50%;
-  bottom: 30px;
-  margin: 0px auto 100px auto;
+  bottom: 1.875rem;
+  margin: 0px auto 6.25rem auto;
   text-align: left;
 }
 
@@ -252,7 +252,7 @@ body {
 .footer-link{
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  margin: 10px 20px;
+  margin: 0.625rem 1.25rem;
 }
 
 .footer-link:hover{
@@ -261,7 +261,7 @@ body {
 
 .bottom-container{
   background-color: #66BFBF;
-  padding: 50px 0px 20px;
+  padding: 3.125rem 0px 1.25rem;
 }
 
 .intro{
@@ -271,7 +271,7 @@ body {
 
 .contactmsg{
   width: 30%;
-  margin: 40px auto 60px;
+  margin: 2.5rem auto 3.75rem;
 }
 
 .testbutton {
